@@ -3,17 +3,107 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
+    text-decoration: none;
 }
 
-header {
+body {
+    background-color: #eee;
+    position: relative;
+}
+
+header, footer {
     width: 100%;
     padding: 30px;
-    background-color: blueviolet;
-    text-align: center;
+    background-color:rgb(113, 89, 193);;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header a {
     color: white;
-    text-decoration: none;
-    padding-left: 30px; 
+    margin-right: 30px; 
+}
+
+
+main {
+    width: 80%;
+    max-width: 800px; 
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+main #cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    
+}
+
+main #cabecalho img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid rgb(82, 80, 80);;
+}
+
+main h1, h2 {
+    font-size: 36px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    color: rgb(75, 75, 75);
+}
+
+main #tecnologias h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+main h4 {
+    color: rgb(75, 75, 75);
+    margin-top: 5px;
+}
+
+main #tecnologias {
+    margin-bottom: 36px;
+}
+main #tecnologias img{
+    width: 50px;
+    height: 50px;
+}
+
+main ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+main ul li {
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+main ul li:last-child {
+    margin-right: 0;
+    
+}
+
+footer img {
+    margin-right: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+footer a:hover img{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(253, 253, 253, 0.65);
 }
