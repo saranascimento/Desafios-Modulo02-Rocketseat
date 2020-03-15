@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+header {
+    width: 100%;
+    padding: 30px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding-left: 30px; 
+}
